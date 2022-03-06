@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "dfx": "0.8.4",
+  "canisters": {
+    "tintin_hw3": {
+      "type": "motoko",
+      "main": "src/tintin_hw3/main.mo"
+    },
+    "tintin_hw3_assets": {
+      "type": "assets",
+      "source": [
+        "src/tintin_hw3_assets/assets"
+      ],
+      "dependencies": [
+        "tintin_hw3"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
