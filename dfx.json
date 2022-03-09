@@ -6,14 +6,9 @@
       "type": "motoko",
       "main": "src/tintin_hw3/main.mo"
     },
-    "tintin_hw3_assets": {
-      "type": "assets",
-      "source": [
-        "src/tintin_hw3_assets/assets"
-      ],
-      "dependencies": [
-        "tintin_hw3"
-      ]
+    "tintin_hw3_http": {
+      "type": "motoko",
+      "main": "src/tintin_hw3_http/main.mo"
     }
   },
   "defaults": {
